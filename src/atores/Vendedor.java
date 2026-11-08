@@ -1,3 +1,9 @@
+package atores;
+
+import entidades.Carro;
+import entidades.Negociacao;
+import entidades.Venda;
+
 public class Vendedor extends Funcionario {
 
     void cadastrarCliente(Cliente cliente) {}

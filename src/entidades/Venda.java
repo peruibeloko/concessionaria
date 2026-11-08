@@ -1,3 +1,7 @@
+package entidades;
+
+import comportamentos.Aprovavel;
+
 public class Venda implements Aprovavel {
     int valor;
     boolean aprovado;

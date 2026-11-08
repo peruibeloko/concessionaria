@@ -1,3 +1,5 @@
+package atores;
+
 public class Funcionario {
     String cpf;
     String email;

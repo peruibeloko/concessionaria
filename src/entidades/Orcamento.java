@@ -1,3 +1,8 @@
+package entidades;
+
+import atores.Cliente;
+import comportamentos.Aprovavel;
+
 import java.util.List;
 
 public class Orcamento implements Aprovavel {

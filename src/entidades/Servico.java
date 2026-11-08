@@ -1,3 +1,5 @@
+package entidades;
+
 public abstract class Servico {
     int valor;
     public class Alinhamento {}

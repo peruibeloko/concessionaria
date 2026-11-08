@@ -1,3 +1,7 @@
+package entidades;
+
+import comportamentos.Aprovavel;
+
 public class Negociacao implements Aprovavel {
     Venda venda;
     int desconto;
