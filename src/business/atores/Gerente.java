@@ -1,6 +1,6 @@
-package atores;
+package business.atores;
 
-import comportamentos.Aprovavel;
+import business.comportamentos.Aprovavel;
 
 public class Gerente extends Funcionario {
     void aprovar(Aprovavel operacao){}

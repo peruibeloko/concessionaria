@@ -1,8 +1,8 @@
-package atores;
+package business.atores;
 
-import entidades.Carro;
-import entidades.Negociacao;
-import entidades.Venda;
+import business.entidades.Carro;
+import business.entidades.Negociacao;
+import business.entidades.Venda;
 
 public class Vendedor extends Funcionario {
 

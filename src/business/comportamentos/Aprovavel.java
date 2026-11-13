@@ -1,4 +1,4 @@
-package comportamentos;
+package business.comportamentos;
 
 public interface Aprovavel {
     void aprovar();

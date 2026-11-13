@@ -1,8 +1,8 @@
-package atores;
+package business.atores;
 
-import entidades.Carro;
-import entidades.CarroEmplacado;
-import entidades.Orcamento;
+import business.entidades.Carro;
+import business.entidades.CarroEmplacado;
+import business.entidades.Orcamento;
 
 public class Mecanico extends Funcionario {
     Orcamento criarOrcamento(CarroEmplacado carro, Cliente cliente) {

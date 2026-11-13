@@ -1,7 +1,7 @@
-package entidades;
+package business.entidades;
 
-import atores.Cliente;
-import comportamentos.Aprovavel;
+import business.atores.Cliente;
+import business.comportamentos.Aprovavel;
 
 import java.util.List;
 

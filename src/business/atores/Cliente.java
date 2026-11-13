@@ -1,4 +1,4 @@
-package atores;
+package business.atores;
 
 public class Cliente {
     String nome;

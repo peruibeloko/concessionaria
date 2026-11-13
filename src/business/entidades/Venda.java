@@ -1,6 +1,6 @@
-package entidades;
+package business.entidades;
 
-import comportamentos.Aprovavel;
+import business.comportamentos.Aprovavel;
 
 public class Venda implements Aprovavel {
     int valor;

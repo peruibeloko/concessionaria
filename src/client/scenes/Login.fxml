@@ -40,7 +40,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <HBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.LoginController">
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.LoginController">
     <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0">
         <TextField promptText="Login" fx:id="loginField"/>
         <PasswordField promptText="Senha" fx:id="passField">
