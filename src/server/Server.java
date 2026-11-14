@@ -1,5 +1,7 @@
 package server;
 
+import business.atores.Cliente;
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.List;
@@ -38,5 +40,21 @@ public class Server implements ConcessionariaInterface {
     public boolean login(String user, String pass) {
         // TODO consultar no banco
         return true;
+    }
+
+    public String cadastrarCliente(Cliente cliente) {
+        return new ClienteService().cadastrarCliente(cliente);
+    }
+
+    public List<Cliente> buscarCliente(String nome) {
+        return new ClienteService().buscarCliente(nome);
+    }
+
+    public boolean atualizarCliente(String id, Cliente cliente) {
+        return new ClienteService().atualizarCliente(id, cliente);
+    }
+
+    public boolean apagarCliente(String id) {
+        return new ClienteService().apagarCliente(id);
     }
 }
